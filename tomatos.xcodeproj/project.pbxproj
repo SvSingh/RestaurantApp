@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10040EE278AD86900E0C878 /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040ED278AD86900E0C878 /* tabView.swift */; };
+		E10040F0278AD92F00E0C878 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040EF278AD92F00E0C878 /* menuView.swift */; };
+		E10040F2278E20F500E0C878 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040F1278E20F500E0C878 /* CartView.swift */; };
+		E10040F42792C14200E0C878 /* PostOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040F32792C14200E0C878 /* PostOrder.swift */; };
+		E10040F8279FED2500E0C878 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040F7279FED2500E0C878 /* Order.swift */; };
+		E127A06427E3BDD80087FF53 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A06327E3BDD80087FF53 /* SignUpView.swift */; };
+		E14288D227673AF2008BAF08 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14288D127673AF2008BAF08 /* MenuDetailView.swift */; };
+		E16759C72757360B002EFDFB /* tomatosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759C62757360B002EFDFB /* tomatosApp.swift */; };
+		E16759C92757360B002EFDFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759C82757360B002EFDFB /* ContentView.swift */; };
+		E16759CB2757360C002EFDFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16759CA2757360C002EFDFB /* Assets.xcassets */; };
+		E16759CE2757360C002EFDFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16759CD2757360C002EFDFB /* Preview Assets.xcassets */; };
+		E16759D82757360C002EFDFB /* tomatosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759D72757360C002EFDFB /* tomatosTests.swift */; };
+		E16759E22757360C002EFDFB /* tomatosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759E12757360C002EFDFB /* tomatosUITests.swift */; };
+		E16759E42757360C002EFDFB /* tomatosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759E32757360C002EFDFB /* tomatosUITestsLaunchTests.swift */; };
+		E16759F327575029002EFDFB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759F127575029002EFDFB /* Menu.swift */; };
+		E16759F427575029002EFDFB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759F227575029002EFDFB /* Category.swift */; };
+		E17494AF27BC4682009FE561 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17494AE27BC4682009FE561 /* LoginView.swift */; };
+		E17494B127BC5FD9009FE561 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17494B027BC5FD9009FE561 /* LoginModel.swift */; };
+		E17494B527BDF1EF009FE561 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17494B427BDF1EF009FE561 /* AccountView.swift */; };
+		E17494B727C45A68009FE561 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17494B627C45A68009FE561 /* PersonModel.swift */; };
+		E17494B927C47CCA009FE561 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17494B827C47CCA009FE561 /* AppState.swift */; };
+		E17DD6EC27C58AB000C34F1F /* AcoountOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DD6EB27C58AB000C34F1F /* AcoountOrders.swift */; };
+		E17DD6EE27C58AEB00C34F1F /* OrderFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DD6ED27C58AEB00C34F1F /* OrderFetch.swift */; };
+		E17DD6F027C5B23600C34F1F /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DD6EF27C5B23600C34F1F /* OrderDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E16759D42757360C002EFDFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16759BB2757360B002EFDFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16759C22757360B002EFDFB;
+			remoteInfo = tomatos;
+		};
+		E16759DE2757360C002EFDFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16759BB2757360B002EFDFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16759C22757360B002EFDFB;
+			remoteInfo = tomatos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E10040ED278AD86900E0C878 /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
+		E10040EF278AD92F00E0C878 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
+		E10040F1278E20F500E0C878 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E10040F32792C14200E0C878 /* PostOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostOrder.swift; sourceTree = "<group>"; };
+		E10040F7279FED2500E0C878 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E127A06327E3BDD80087FF53 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		E14288D127673AF2008BAF08 /* MenuDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		E16759C32757360B002EFDFB /* tomatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16759C62757360B002EFDFB /* tomatosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatosApp.swift; sourceTree = "<group>"; };
+		E16759C82757360B002EFDFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E16759CA2757360C002EFDFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16759CD2757360C002EFDFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E16759D32757360C002EFDFB /* tomatosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomatosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16759D72757360C002EFDFB /* tomatosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatosTests.swift; sourceTree = "<group>"; };
+		E16759DD2757360C002EFDFB /* tomatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomatosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16759E12757360C002EFDFB /* tomatosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatosUITests.swift; sourceTree = "<group>"; };
+		E16759E32757360C002EFDFB /* tomatosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E16759F127575029002EFDFB /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		E16759F227575029002EFDFB /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E17494AE27BC4682009FE561 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E17494B027BC5FD9009FE561 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		E17494B427BDF1EF009FE561 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		E17494B627C45A68009FE561 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		E17494B827C47CCA009FE561 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		E17DD6EB27C58AB000C34F1F /* AcoountOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcoountOrders.swift; sourceTree = "<group>"; };
+		E17DD6ED27C58AEB00C34F1F /* OrderFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFetch.swift; sourceTree = "<group>"; };
+		E17DD6EF27C5B23600C34F1F /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16759C02757360B002EFDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16759D02757360C002EFDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16759DA2757360C002EFDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16759BA2757360B002EFDFB = {
+			isa = PBXGroup;
+			children = (
+				E16759C52757360B002EFDFB /* tomatos */,
+				E16759D62757360C002EFDFB /* tomatosTests */,
+				E16759E02757360C002EFDFB /* tomatosUITests */,
+				E16759C42757360B002EFDFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16759C42757360B002EFDFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16759C32757360B002EFDFB /* tomatos.app */,
+				E16759D32757360C002EFDFB /* tomatosTests.xctest */,
+				E16759DD2757360C002EFDFB /* tomatosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16759C52757360B002EFDFB /* tomatos */ = {
+			isa = PBXGroup;
+			children = (
+				E16759C62757360B002EFDFB /* tomatosApp.swift */,
+				E16759C82757360B002EFDFB /* ContentView.swift */,
+				E16759CA2757360C002EFDFB /* Assets.xcassets */,
+				E16759F52757502F002EFDFB /* Models */,
+				E16759CC2757360C002EFDFB /* Preview Content */,
+				E14288D127673AF2008BAF08 /* MenuDetailView.swift */,
+				E10040ED278AD86900E0C878 /* tabView.swift */,
+				E10040EF278AD92F00E0C878 /* menuView.swift */,
+				E10040F1278E20F500E0C878 /* CartView.swift */,
+				E10040F32792C14200E0C878 /* PostOrder.swift */,
+				E10040F7279FED2500E0C878 /* Order.swift */,
+				E17494AE27BC4682009FE561 /* LoginView.swift */,
+				E17494B427BDF1EF009FE561 /* AccountView.swift */,
+				E17494B827C47CCA009FE561 /* AppState.swift */,
+				E17DD6EB27C58AB000C34F1F /* AcoountOrders.swift */,
+				E17DD6EF27C5B23600C34F1F /* OrderDetailView.swift */,
+				E127A06327E3BDD80087FF53 /* SignUpView.swift */,
+			);
+			path = tomatos;
+			sourceTree = "<group>";
+		};
+		E16759CC2757360C002EFDFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E16759CD2757360C002EFDFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E16759D62757360C002EFDFB /* tomatosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16759D72757360C002EFDFB /* tomatosTests.swift */,
+			);
+			path = tomatosTests;
+			sourceTree = "<group>";
+		};
+		E16759E02757360C002EFDFB /* tomatosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E16759E12757360C002EFDFB /* tomatosUITests.swift */,
+				E16759E32757360C002EFDFB /* tomatosUITestsLaunchTests.swift */,
+			);
+			path = tomatosUITests;
+			sourceTree = "<group>";
+		};
+		E16759F52757502F002EFDFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E16759F227575029002EFDFB /* Category.swift */,
+				E16759F127575029002EFDFB /* Menu.swift */,
+				E17494B027BC5FD9009FE561 /* LoginModel.swift */,
+				E17494B627C45A68009FE561 /* PersonModel.swift */,
+				E17DD6ED27C58AEB00C34F1F /* OrderFetch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16759C22757360B002EFDFB /* tomatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16759E72757360C002EFDFB /* Build configuration list for PBXNativeTarget "tomatos" */;
+			buildPhases = (
+				E16759BF2757360B002EFDFB /* Sources */,
+				E16759C02757360B002EFDFB /* Frameworks */,
+				E16759C12757360B002EFDFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tomatos;
+			productName = tomatos;
+			productReference = E16759C32757360B002EFDFB /* tomatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E16759D22757360C002EFDFB /* tomatosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16759EA2757360C002EFDFB /* Build configuration list for PBXNativeTarget "tomatosTests" */;
+			buildPhases = (
+				E16759CF2757360C002EFDFB /* Sources */,
+				E16759D02757360C002EFDFB /* Frameworks */,
+				E16759D12757360C002EFDFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16759D52757360C002EFDFB /* PBXTargetDependency */,
+			);
+			name = tomatosTests;
+			productName = tomatosTests;
+			productReference = E16759D32757360C002EFDFB /* tomatosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E16759DC2757360C002EFDFB /* tomatosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16759ED2757360C002EFDFB /* Build configuration list for PBXNativeTarget "tomatosUITests" */;
+			buildPhases = (
+				E16759D92757360C002EFDFB /* Sources */,
+				E16759DA2757360C002EFDFB /* Frameworks */,
+				E16759DB2757360C002EFDFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16759DF2757360C002EFDFB /* PBXTargetDependency */,
+			);
+			name = tomatosUITests;
+			productName = tomatosUITests;
+			productReference = E16759DD2757360C002EFDFB /* tomatosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16759BB2757360B002EFDFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E16759C22757360B002EFDFB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E16759D22757360C002EFDFB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E16759C22757360B002EFDFB;
+					};
+					E16759DC2757360C002EFDFB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E16759C22757360B002EFDFB;
+					};
+				};
+			};
+			buildConfigurationList = E16759BE2757360B002EFDFB /* Build configuration list for PBXProject "tomatos" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16759BA2757360B002EFDFB;
+			productRefGroup = E16759C42757360B002EFDFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16759C22757360B002EFDFB /* tomatos */,
+				E16759D22757360C002EFDFB /* tomatosTests */,
+				E16759DC2757360C002EFDFB /* tomatosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16759C12757360B002EFDFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16759CE2757360C002EFDFB /* Preview Assets.xcassets in Resources */,
+				E16759CB2757360C002EFDFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16759D12757360C002EFDFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16759DB2757360C002EFDFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16759BF2757360B002EFDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10040F42792C14200E0C878 /* PostOrder.swift in Sources */,
+				E17494B127BC5FD9009FE561 /* LoginModel.swift in Sources */,
+				E10040EE278AD86900E0C878 /* tabView.swift in Sources */,
+				E10040F0278AD92F00E0C878 /* menuView.swift in Sources */,
+				E10040F8279FED2500E0C878 /* Order.swift in Sources */,
+				E127A06427E3BDD80087FF53 /* SignUpView.swift in Sources */,
+				E16759F327575029002EFDFB /* Menu.swift in Sources */,
+				E17DD6EC27C58AB000C34F1F /* AcoountOrders.swift in Sources */,
+				E17494B927C47CCA009FE561 /* AppState.swift in Sources */,
+				E17DD6F027C5B23600C34F1F /* OrderDetailView.swift in Sources */,
+				E16759C92757360B002EFDFB /* ContentView.swift in Sources */,
+				E14288D227673AF2008BAF08 /* MenuDetailView.swift in Sources */,
+				E17494B727C45A68009FE561 /* PersonModel.swift in Sources */,
+				E16759C72757360B002EFDFB /* tomatosApp.swift in Sources */,
+				E17494AF27BC4682009FE561 /* LoginView.swift in Sources */,
+				E10040F2278E20F500E0C878 /* CartView.swift in Sources */,
+				E17DD6EE27C58AEB00C34F1F /* OrderFetch.swift in Sources */,
+				E17494B527BDF1EF009FE561 /* AccountView.swift in Sources */,
+				E16759F427575029002EFDFB /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16759CF2757360C002EFDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16759D82757360C002EFDFB /* tomatosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16759D92757360C002EFDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16759E42757360C002EFDFB /* tomatosUITestsLaunchTests.swift in Sources */,
+				E16759E22757360C002EFDFB /* tomatosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E16759D52757360C002EFDFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16759C22757360B002EFDFB /* tomatos */;
+			targetProxy = E16759D42757360C002EFDFB /* PBXContainerItemProxy */;
+		};
+		E16759DF2757360C002EFDFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16759C22757360B002EFDFB /* tomatos */;
+			targetProxy = E16759DE2757360C002EFDFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E16759E52757360C002EFDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E16759E62757360C002EFDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16759E82757360C002EFDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tomatos/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DWVHCVKF9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.svtechSoultion.tomatos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E16759E92757360C002EFDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tomatos/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DWVHCVKF9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.svtechSoultion.tomatos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E16759EB2757360C002EFDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.svtechSoultion.tomatosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomatos.app/tomatos";
+			};
+			name = Debug;
+		};
+		E16759EC2757360C002EFDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.svtechSoultion.tomatosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomatos.app/tomatos";
+			};
+			name = Release;
+		};
+		E16759EE2757360C002EFDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.svtechSoultion.tomatosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tomatos;
+			};
+			name = Debug;
+		};
+		E16759EF2757360C002EFDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.svtechSoultion.tomatosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tomatos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16759BE2757360B002EFDFB /* Build configuration list for PBXProject "tomatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16759E52757360C002EFDFB /* Debug */,
+				E16759E62757360C002EFDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16759E72757360C002EFDFB /* Build configuration list for PBXNativeTarget "tomatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16759E82757360C002EFDFB /* Debug */,
+				E16759E92757360C002EFDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16759EA2757360C002EFDFB /* Build configuration list for PBXNativeTarget "tomatosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16759EB2757360C002EFDFB /* Debug */,
+				E16759EC2757360C002EFDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16759ED2757360C002EFDFB /* Build configuration list for PBXNativeTarget "tomatosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16759EE2757360C002EFDFB /* Debug */,
+				E16759EF2757360C002EFDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16759BB2757360B002EFDFB /* Project object */;
+}
