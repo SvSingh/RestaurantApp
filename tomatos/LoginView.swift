@@ -140,7 +140,7 @@ struct ExtractedView: View {
                 }
                 VStack {
                     Text("Please Enter Your Password")
-                    TextField("Password", text: self.$password)
+                    SecureField("Password", text: self.$password)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color.white)
@@ -173,9 +173,6 @@ struct ExtractedView: View {
                 Text("Don't Have an Account yet?")
                 
                 NavigationLink(destination: SignUpView().navigationBarBackButtonHidden(false)
-                                //.navigationBarTitle("")
-                                //.navigationBarHidden(true)
-                                
                             ) {
                     Text("Sign up!")
                     

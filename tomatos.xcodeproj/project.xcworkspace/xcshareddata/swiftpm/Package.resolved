@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "iphonenumberfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MojtabaHs/iPhoneNumberField.git",
+      "state" : {
+        "revision" : "a6b5fcc6c9b085285932fe4fe754086ab92409cb",
+        "version" : "0.6.1"
+      }
+    },
+    {
+      "identity" : "phonenumberkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marmelroy/PhoneNumberKit",
+      "state" : {
+        "revision" : "fc8b12831c166e7851c341c2ac5a120c8716304a",
+        "version" : "3.3.4"
+      }
+    }
+  ],
+  "version" : 2
+}

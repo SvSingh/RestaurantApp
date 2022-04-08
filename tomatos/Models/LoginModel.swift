@@ -25,11 +25,12 @@ struct Person : Codable {
 
 
 struct Customer : Codable {
-    var id: Int
+    var id: Int!
     var Customer_name: String
     var phone_number: String
     var email: String
     var password: String
+    var password_confirmation : String!
        
 }
 

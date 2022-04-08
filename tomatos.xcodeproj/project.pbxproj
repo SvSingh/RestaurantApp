@@ -10,10 +10,11 @@
 		E10040EE278AD86900E0C878 /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040ED278AD86900E0C878 /* tabView.swift */; };
 		E10040F0278AD92F00E0C878 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040EF278AD92F00E0C878 /* menuView.swift */; };
 		E10040F2278E20F500E0C878 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040F1278E20F500E0C878 /* CartView.swift */; };
-		E10040F42792C14200E0C878 /* PostOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040F32792C14200E0C878 /* PostOrder.swift */; };
 		E10040F8279FED2500E0C878 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10040F7279FED2500E0C878 /* Order.swift */; };
 		E127A06427E3BDD80087FF53 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A06327E3BDD80087FF53 /* SignUpView.swift */; };
+		E127A0A227F2BD610087FF53 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = E127A0A127F2BD610087FF53 /* iPhoneNumberField */; };
 		E14288D227673AF2008BAF08 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14288D127673AF2008BAF08 /* MenuDetailView.swift */; };
+		E142C3F32800C32A00422D91 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142C3F22800C32A00422D91 /* SignUp.swift */; };
 		E16759C72757360B002EFDFB /* tomatosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759C62757360B002EFDFB /* tomatosApp.swift */; };
 		E16759C92757360B002EFDFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16759C82757360B002EFDFB /* ContentView.swift */; };
 		E16759CB2757360C002EFDFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16759CA2757360C002EFDFB /* Assets.xcassets */; };
@@ -54,10 +55,10 @@
 		E10040ED278AD86900E0C878 /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
 		E10040EF278AD92F00E0C878 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
 		E10040F1278E20F500E0C878 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
-		E10040F32792C14200E0C878 /* PostOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostOrder.swift; sourceTree = "<group>"; };
 		E10040F7279FED2500E0C878 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		E127A06327E3BDD80087FF53 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		E14288D127673AF2008BAF08 /* MenuDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		E142C3F22800C32A00422D91 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		E16759C32757360B002EFDFB /* tomatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16759C62757360B002EFDFB /* tomatosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatosApp.swift; sourceTree = "<group>"; };
 		E16759C82757360B002EFDFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E127A0A227F2BD610087FF53 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E142C3F12800C2CB00422D91 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E17DD6ED27C58AEB00C34F1F /* OrderFetch.swift */,
+				E142C3F22800C32A00422D91 /* SignUp.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E16759BA2757360B002EFDFB = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +139,7 @@
 		E16759C52757360B002EFDFB /* tomatos */ = {
 			isa = PBXGroup;
 			children = (
+				E142C3F12800C2CB00422D91 /* Services */,
 				E16759C62757360B002EFDFB /* tomatosApp.swift */,
 				E16759C82757360B002EFDFB /* ContentView.swift */,
 				E16759CA2757360C002EFDFB /* Assets.xcassets */,
@@ -137,7 +149,6 @@
 				E10040ED278AD86900E0C878 /* tabView.swift */,
 				E10040EF278AD92F00E0C878 /* menuView.swift */,
 				E10040F1278E20F500E0C878 /* CartView.swift */,
-				E10040F32792C14200E0C878 /* PostOrder.swift */,
 				E10040F7279FED2500E0C878 /* Order.swift */,
 				E17494AE27BC4682009FE561 /* LoginView.swift */,
 				E17494B427BDF1EF009FE561 /* AccountView.swift */,
@@ -181,7 +192,6 @@
 				E16759F127575029002EFDFB /* Menu.swift */,
 				E17494B027BC5FD9009FE561 /* LoginModel.swift */,
 				E17494B627C45A68009FE561 /* PersonModel.swift */,
-				E17DD6ED27C58AEB00C34F1F /* OrderFetch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +212,9 @@
 			dependencies = (
 			);
 			name = tomatos;
+			packageProductDependencies = (
+				E127A0A127F2BD610087FF53 /* iPhoneNumberField */,
+			);
 			productName = tomatos;
 			productReference = E16759C32757360B002EFDFB /* tomatos.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +287,9 @@
 				Base,
 			);
 			mainGroup = E16759BA2757360B002EFDFB;
+			packageReferences = (
+				E127A0A027F2BD610087FF53 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = E16759C42757360B002EFDFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -316,7 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10040F42792C14200E0C878 /* PostOrder.swift in Sources */,
 				E17494B127BC5FD9009FE561 /* LoginModel.swift in Sources */,
 				E10040EE278AD86900E0C878 /* tabView.swift in Sources */,
 				E10040F0278AD92F00E0C878 /* menuView.swift in Sources */,
@@ -333,6 +348,7 @@
 				E17494AF27BC4682009FE561 /* LoginView.swift in Sources */,
 				E10040F2278E20F500E0C878 /* CartView.swift in Sources */,
 				E17DD6EE27C58AEB00C34F1F /* OrderFetch.swift in Sources */,
+				E142C3F32800C32A00422D91 /* SignUp.swift in Sources */,
 				E17494B527BDF1EF009FE561 /* AccountView.swift in Sources */,
 				E16759F427575029002EFDFB /* Category.swift in Sources */,
 			);
@@ -677,6 +693,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E127A0A027F2BD610087FF53 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E127A0A127F2BD610087FF53 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E127A0A027F2BD610087FF53 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E16759BB2757360B002EFDFB /* Project object */;
 }

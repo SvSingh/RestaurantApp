@@ -33,10 +33,7 @@ struct AccountInfoView: View {
                     }
                 }.padding(.horizontal,10)
                 
-                Text("Please re-enter The Information You want to Update and than press the Update Button.")
-                    .frame(height: 45)
-                    .lineLimit(nil)
-                
+               
                 PersonDetailsView().frame( height: 470)
                 
             }.padding()
@@ -60,8 +57,10 @@ struct PersonDetailsView: View {
     @State var Name : String = ""
     @State var Email : String = ""
     @State var Phone : String = ""
-    @State var Password : String = ""
-    @State var RePassword : String = ""
+   
+    
+    @State var errorMessage = ""
+    @State var showingAlert = false
     
    func onAppearTask(){
         
@@ -70,7 +69,7 @@ struct PersonDetailsView: View {
         Email = userDefault.object(forKey: "email") as? String ?? ""
         Phone = userDefault.object(forKey: "phone") as? String ?? ""
         Name = userDefault.object(forKey: "name") as? String ?? ""
-        
+       
       
         
         
@@ -83,7 +82,8 @@ struct PersonDetailsView: View {
             VStack{
                 VStack(alignment: .leading){
                     Text("Name")
-                    TextField("name", text: self.$Name)
+                    Text(self.Name)
+                        .frame(width: 300)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color.white)
@@ -98,7 +98,8 @@ struct PersonDetailsView: View {
                 
                 VStack(alignment: .leading){
                     Text("Email")
-                    TextField("Email", text: self.$Email)
+                    Text(self.Email)
+                        .frame(width: 300)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color.white)
@@ -112,7 +113,8 @@ struct PersonDetailsView: View {
                 
                 VStack(alignment: .leading){
                     Text("Phone Number")
-                    TextField("Number", text: self.$Phone)
+                    Text(self.Phone)
+                        .frame(width: 300)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color.white)
@@ -124,41 +126,8 @@ struct PersonDetailsView: View {
                                  
                         .frame(maxWidth : .infinity))
                 
-                VStack(alignment: .leading){
-                    Text("Password")
-                    TextField("Enter Password", text: self.$Password)
-                        .padding()
-                        .foregroundColor(Color.black)
-                        .background(Color.white)
-                        .cornerRadius(10)
-                    Text("Re-Enter Password")
-                    TextField("Re-Enter Password", text: self.$RePassword)
-                        .padding()
-                        .foregroundColor(Color.black)
-                        .background(Color.white)
-                        .cornerRadius(10)
-                    
-                }.padding()
-                    .background( Color.primary.opacity(0.1)
-                        .clipShape(RoundedRectangle(cornerRadius: 8))
-                                 
-                        .frame(maxWidth : .infinity))
+               
                 
-                VStack (){
-                    
-                    Button{}label: {
-                        
-                        Text("Update Information")
-                            .frame(width: 350,height: 50)
-                            .padding(.horizontal,10)
-                            .background(Color.red)
-                            .cornerRadius(10)
-                            .font(.system(size: 20,weight : .bold))
-                            .foregroundColor(Color.white)
-                            .shadow(color:Color.red.opacity(0.5),radius : 5,x : 0, y : 10)
-                    }
-                    
-                }
                 
             }
         }
