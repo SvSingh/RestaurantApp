@@ -110,8 +110,8 @@ struct ExtractedView: View {
     
     @State var showContentView = true
     
-    @State var email = "test@mail.com"
-    @State var password = "svsingh2320"
+    @State var email = ""
+    @State var password = ""
     var body: some View {
         VStack(alignment: .center, spacing: 15) {
             

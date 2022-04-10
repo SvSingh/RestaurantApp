@@ -27,7 +27,7 @@ class MenuInitialize {
         
         
         
-        let url = URL(string: "http://192.168.1.80:8000/api/menu")!
+        let url = URL(string: "https://tomatos.ca/Laravel/api/menu")!
         
         var request = URLRequest(url: url)
         

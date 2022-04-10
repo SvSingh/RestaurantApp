@@ -20,7 +20,7 @@ class categoryInitialize {
     
     func initialize (){
         
-        let url = URL(string: "http://192.168.1.80:8000/api/Category")!
+        let url = URL(string: "https://tomatos.ca/Laravel/api/Category")!
         
         var request = URLRequest(url: url)
         

@@ -64,7 +64,7 @@ class FetchOrder {
     
     func fetchOrderItems(orderId : Int){
         
-        let url = URL(string: "http://192.168.1.80:8000/api/OrderItem/\(orderId)")!
+        let url = URL(string: "https://tomatos.ca/Laravel/api/OrderItem/\(orderId)")!
         
         var request = URLRequest(url: url)
         
@@ -98,7 +98,7 @@ class FetchOrder {
     
     func fetchCustomerID (CustomerId : Int){
         
-        let url = URL(string: "http://192.168.1.80:8000/api/OrderCustomId/\(CustomerId)")!
+        let url = URL(string: "https://tomatos.ca/Laravel/api/OrderCustomId/\(CustomerId)")!
         
         var request = URLRequest(url: url)
         
@@ -171,7 +171,7 @@ class PostOrder {
       
     func postOrderdetail(){
         
-        let url = URL(string: "http://192.168.1.80:8000/api/Order")
+        let url = URL(string: "https://tomatos.ca/Laravel/api/Order")
         
         
        guard let requestUrl = url else { fatalError() }
@@ -235,7 +235,7 @@ class PostOrder {
             }else{
                 if let order  = order{
                     
-                     let url = URL(string: "http://192.168.1.80:8000/api/OrderItem")
+                     let url = URL(string: "https://tomatos.ca/Laravel/api/OrderItem")
                      guard let requestUrl = url else { fatalError() }
                      var request = URLRequest(url: requestUrl)
                      request.httpMethod = "POST"

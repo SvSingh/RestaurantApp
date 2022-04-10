@@ -28,7 +28,7 @@ class signup : ObservableObject {
     var signedInDetail : Person!
     
     func signup() {
-        let url = URL(string: "http://192.168.1.80:8000/api/create-account")
+        let url = URL(string: "https://tomatos.ca/Laravel/api/create-account")
         
         
        guard let requestUrl = url else { fatalError() }
